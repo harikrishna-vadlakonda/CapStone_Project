@@ -1,15 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
+
 import './App.css';
-import Form from './Components/Form'
+// import Form from './Components/Form'
+import Home from './Components/Home/index'
 
 
 function App() {
   return (
 
     <div className="App">
-      <Form />
-
+      {/* <Form /> */}
+<Home />
     </div>
 
   );
