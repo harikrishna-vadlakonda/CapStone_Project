@@ -1,4 +1,4 @@
-import "./CardComp.css";
+import "./AvertiseServices.css";
 import React from "react";
 import PlumberM from '../images/PlumberMeduim.jpg'
 import Carpenter from '../images/CarpenterMedium.jpg'
@@ -7,11 +7,11 @@ import Electrician from '../images/ElectricianMedium1.jpeg'
 
 function template() {
   return (
-    <div className="card-comp">
+    <div className="avertise-services">
       <div className="container mt-3">
         <div className="row">
           <div className="col-sm-3">
-            <div className="card custCard h-20">
+            <div className="card h-20">
               <div className="card-header p-0">
               <img src={PlumberM} alt="plumber" width="100%" height="300px" />
               </div>
@@ -23,7 +23,7 @@ function template() {
             </div>
           </div>
           <div className="col-sm-3">
-            <div className="card custCard">
+            <div className="card">
               <div className="card-header m-0 p-0">
               <img src={Electrician} alt="plumber" width="100%" height="300px" />
               </div>
@@ -36,7 +36,7 @@ function template() {
           </div>
 
           <div className="col-sm-3">
-            <div className="card custCard">
+            <div className="card">
               <div className="card-header m-0 p-0">
               <img src={Carpenter} alt="plumber" width="100%" height="300px" />
               </div>
@@ -49,7 +49,7 @@ function template() {
           </div>
 
           <div className="col-sm-3">
-            <div className="card custCard">
+            <div className="card">
               <div className="card-header m-0 p-0">
               <img src={BeautyS} alt="plumber" width="100%" height="300px" />
               </div>

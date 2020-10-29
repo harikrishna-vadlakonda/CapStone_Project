@@ -14,9 +14,9 @@ import PaintingC1 from '../images/PaintinCarousel1.jpg';
 function template() {
   return (
     <div >
-     <div class="container mt-3">
+     <div class="container  mt-3">
        
-       <div class="carousel slide carousel-fade" data-interval="2000" data-ride="carousel">
+       <div class="carousel custmCarousel slide carousel-fade" data-interval="2000" data-ride="carousel">
            <ul class="carousel-indicators">
                <li></li>
                <li></li>
