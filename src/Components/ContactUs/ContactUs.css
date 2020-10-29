@@ -1,0 +1,18 @@
+#sec1 {
+    
+    background: url("../images/card_6.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   height:100vh;
+   color:white;
+   text-align: center;
+   
+    
+   
+}
+.divcover {
+   padding-top: 170px;
+    background-color: rgba(0,0,0,0.7);
+    height:100vh;
+}
