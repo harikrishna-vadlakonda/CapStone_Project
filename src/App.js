@@ -7,21 +7,23 @@ import Home from './Components/Home/index'
 import ContactUs from './Components/ContactUs/index'
 import {BrowserRouter as Router,Route,Switch} from 'react-router-dom'
 import Navbar from './Components/Navbar/index'
-import Reviews from './Components/Reviews/index'
+import Login from './Components/Leftside'
+import Register from './Components/Form'
 
 
 function App() {
   return (
 
     <div className="App">
-      {/* <Form /> */}
-{/* <Home /> */}
+     
+
 <Navbar />
 <Router>
   <Switch>
     <Route exact path="/" component={Home} />
-   
+   <Route path="/login" component={Login} />
     <Route  path="/contact" component={ContactUs} />
+    <Route path="/register" component={Register} />
     
   </Switch>
 </Router>

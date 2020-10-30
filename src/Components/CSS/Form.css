@@ -1,5 +1,6 @@
-body {
+.body1 {
   background-color: cadetblue;
+  height:100vh;
 }
 h1 {
   font-size: 38px;
@@ -56,7 +57,7 @@ select {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.container {
+/* .container {
   background-color: antiquewhite;
   border-style: hidden;
   border-radius: 15px;
@@ -71,4 +72,4 @@ select {
     flex-direction: column;
     justify-content: space-evenly;
   }
-}
+}  */

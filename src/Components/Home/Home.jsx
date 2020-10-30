@@ -14,6 +14,7 @@ function template() {
       <TextC />
       <CardComp />
       <Reviews />
+     
     </div>
   );
 };
