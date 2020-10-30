@@ -1,5 +1,6 @@
 import "./ContactUs.css";
 import React from "react";
+import Footer from '../Footer/index'
 
 function template() {
   return (
@@ -12,6 +13,7 @@ function template() {
         
 
       </section>
+      <Footer />
     </div>
   );
 };
