@@ -1,12 +1,13 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import "./Footer.css";
 import React from "react";
+import {Link} from 'react-router-dom'
 
 function template() {
   return (
     <div className="footer sticky-bottom ">
  
-<footer class="page-footer font-small indigo">
+<footer class="page-footer font-small bg-dark">
 
 
   <div class="container">
@@ -17,7 +18,8 @@ function template() {
      
       <div class="col-md-2 mb-3">
         <h6 class="text-uppercase font-weight-bold">
-          <a href="#!">About us</a>
+          {/* <a href="#!">About us</a> */}
+          <Link to="/about">About Us</Link>
         </h6>
       </div>
     
@@ -25,7 +27,9 @@ function template() {
      
       <div class="col-md-2 mb-3">
         <h6 class="text-uppercase font-weight-bold">
-          <a href="#!">Products</a>
+          {/* <a href="#!">Products</a> */}
+          <Link to="/">Products</Link>
+
         </h6>
       </div>
    
@@ -33,19 +37,22 @@ function template() {
      
       <div class="col-md-2 mb-3">
         <h6 class="text-uppercase font-weight-bold">
-          <a href="#!">Awards</a>
+          {/* <a href="#!">Awards</a> */}
+          <Link to="/">Awards</Link>
         </h6>
       </div>
       
       <div class="col-md-2 mb-3">
         <h6 class="text-uppercase font-weight-bold">
-          <a href="#!">Help</a>
+          {/* <a href="#!">Help</a> */}
+          <Link to="/contact">Help</Link>
         </h6>
       </div>
      
       <div class="col-md-2 mb-3">
         <h6 class="text-uppercase font-weight-bold">
-          <a href="#!">Contact</a>
+          {/* <a href="/contact">Contact</a> */}
+          <Link to="/contact">Contact</Link>
         </h6>
       </div>
       
@@ -116,7 +123,8 @@ function template() {
 
  
   <div class="footer-copyright text-center py-3">© 2020 Copyright:
-    <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+    {/* <a href="/" class="font-weight-bold"> HQ-Services</a> */}
+    <Link to="" class="font-weight-bold"> HQServices</Link>
   </div>
 
 
