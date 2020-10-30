@@ -7,6 +7,7 @@ import Home from './Components/Home/index'
 import ContactUs from './Components/ContactUs/index'
 import {BrowserRouter as Router,Route,Switch} from 'react-router-dom'
 import Navbar from './Components/Navbar/index'
+import Reviews from './Components/Reviews/index'
 
 
 function App() {

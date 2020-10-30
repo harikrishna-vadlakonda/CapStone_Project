@@ -15,13 +15,17 @@ function template() {
               <div className="card-header p-0">
               <img src={PlumberM} alt="plumber" width="100%" height="300px" />
               </div>
+
               <div className="card-body">
                  <h4>Plumber Services</h4>
                <p class=" text-muted">Up to 50% off</p>
                  <button class="btn btn-primary btn-rounded btn-md">Explore</button>
               </div>
+
             </div>
           </div>
+
+
           <div className="col-sm-3">
             <div className="card custCard">
               <div className="card-header m-0 p-0">
@@ -34,6 +38,7 @@ function template() {
               </div>
             </div>
           </div>
+
 
           <div className="col-sm-3">
             <div className="card custCard">
@@ -61,6 +66,11 @@ function template() {
             </div>
           </div>
         </div>
+
+
+
+
+        
       </div>
     </div>
   );

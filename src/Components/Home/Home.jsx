@@ -4,6 +4,7 @@ import React from "react";
 import Carousel from '../CarouselComp/index'
 import CardComp from '../CardComp/index'
 import TextC from '../TextComp/index'
+import Reviews from '../Reviews/index'
 
 function template() {
   return (
@@ -12,6 +13,7 @@ function template() {
       <Carousel />
       <TextC />
       <CardComp />
+      <Reviews />
     </div>
   );
 };
