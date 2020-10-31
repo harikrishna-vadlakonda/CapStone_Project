@@ -1,8 +1,8 @@
 .login {
-    background-image: url("../images/card_6.jpg") ;
-    height:100vh;
+    width:40%;
+   background: linear-gradient(245deg,black,darkblue);
     color:white;
     font-weight: bold;
     padding:20px;
-    
+    box-shadow: 0 0 20px black;
 }
