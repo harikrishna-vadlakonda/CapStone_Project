@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import "./Login.css";
 import React from "react";
 
@@ -18,8 +19,22 @@ function template() {
     {/* <label for="pwd">Password</label> */}
     <input type="password"  className="form-control" placeholder="Enter password" id="password" />
   </div>
+
+  <div class="d-flex justify-content-around">
+        <div>
+           
+            <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="defaultLoginFormRemember" />
+                <label class="custom-control-label" for="defaultLoginFormRemember">Remember me</label>
+            </div>
+        </div>
+        <div>
+           
+            <a href="">Forgot password?</a>
+        </div>
+    </div>
   
-  <button type="submit" className="btn btn-outline-white font-weight-bold">Login</button>
+  <button type="submit" className="btn mt-2 btn-outline-white font-weight-bold">Login</button>
   <button type="submit" className="btn btn-outline-white font-weight-bold">Register</button>
 </form>
 </div>

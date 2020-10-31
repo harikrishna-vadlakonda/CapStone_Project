@@ -1,10 +1,11 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import "./TestingComp.css";
 import React from "react";
 
 function template() {
   return (
 
-    <div className="testing-comp mx-auto my-3 animated  zoomIn slow   ">
+    <div className="testing-comp mx-auto my-1 animated  zoomIn slow   ">
      
 
         
@@ -83,7 +84,17 @@ function template() {
                         <option>Latur</option>
                     </select>
                 </div>
-                <input value="Register" type="submit" className="btn btn-outline-white font-weight-bold mt-2 mx-auto" onClick={this.getdata} />
+                <input value="Register" type="submit" className="btn btn-outline-white font-weight-bold mt-1 mx-auto" onClick={this.getdata} />
+              <br />
+              <p class="h6">Or sign up with:</p>
+                <a type="button" class="btn-floating btn-fb btn-sm">
+        <i class="fab fa-facebook-f fa-1x"></i>
+      </a>
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a type="button" class="btn-floating btn-git btn-sm">
+        <i class="fab fa-github fa-1x"></i>
+      </a>
+      
       </form>
        </div>
   
