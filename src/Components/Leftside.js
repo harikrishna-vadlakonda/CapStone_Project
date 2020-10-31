@@ -11,8 +11,8 @@ const LeftSide = () => {
             <Form style={{width:"80%", marginLeft:"10%", marginTop:"10%"}}>
                 
                 <Form.Group >
-                    <Form.Label><h2>Enter your email</h2></Form.Label>
-                                    <Form.Control style={{width:"30%"}} type="email" placeholder="Enter your email" />
+                    <Form.Label><h2>Enter Phone</h2></Form.Label>
+                                    <Form.Control style={{width:"30%"}} type="Phone" placeholder="Enter your Phone" />
                 </Form.Group>
                 
                 <Form.Group >

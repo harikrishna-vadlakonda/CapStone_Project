@@ -13,7 +13,7 @@ function template() {
              <Link to="#" className="navbar-brand font-weight-bold">HQServices</Link>
            <div className=" div1 collapse navbar-collapse">
              <ul className="navbar-nav font-weight-bold ml-auto">
-               <li className="nav-item mx-2"><Link to="/home" class="nav-link">Home</Link> </li>
+               <li className="nav-item mx-2"><Link to="/" class="nav-link">Home</Link> </li>
             
                <li className="nav-item mx-2 "><Link to="/contact" class="nav-link">ContactUs</Link> </li>
                <li className="nav-item mx-2 "><Link to="/about" class="nav-link">AboutUs</Link> </li>
