@@ -1,0 +1,10 @@
+.landing-section {
+    background: url('../images/CarpenterCarousel.jpg') no-repeat ;
+    background-size: cover;
+    height:80vh;
+    color:white;
+}
+.wrapping {
+    background-color: rgba(0,0,0,0.5);
+    height:80vh;
+}

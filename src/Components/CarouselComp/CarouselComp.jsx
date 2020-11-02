@@ -3,11 +3,11 @@
 import "./CarouselComp.css";
 import React from "react";
 
-import BeautyS2 from '../images/beautyCarousel2.jpg'
-import ElectricalC from '../images/ElectricalCarousel.jpg'
+import BeautyS2 from '../images/Beauty services/pexels-delbeautybox-853427.jpg'
+import ElectricalC from '../images/Beauty services/pexels-anderson-guerra-1115128.jpg'
 
-import PlumberC1 from '../images/PlumberCarousel1.jpg';
-import PaintingC1 from '../images/PaintinCarousel1.jpg';
+import PlumberC1 from '../images/Carpenter services/pexels-pixabay-209235.jpg';
+import PaintingC1 from '../images/Study Services/pexels-thisisengineering-3862130.jpg';
 
 
 
@@ -16,10 +16,10 @@ function template() {
     <div >
      <div class="container  mt-3">
        
-       <div class="carousel custmCarousel slide carousel-fade" data-interval="2000" data-ride="carousel">
+       <div  class="carousel custmCarousel slide carousel-fade" data-interval="2000" data-target="carousel" data-ride="carousel">
            <ul class="carousel-indicators">
-               <li></li>
-               <li></li>
+               <li data-target="#carousel"></li>
+               <li data-target="#carousel"></li>
                <li></li>
                <li></li>
            </ul>

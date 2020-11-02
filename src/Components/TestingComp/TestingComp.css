@@ -1,5 +1,5 @@
 .testing-comp {
-    box-shadow: 0 0 20px black;
+    box-shadow: 0 0 30px black;
     background: linear-gradient(90deg,black,darkblue);
     /* background-color: #2d2d30; */
     border-radius: 20px;

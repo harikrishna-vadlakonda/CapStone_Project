@@ -1,12 +1,16 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import "./Login.css";
 import React from "react";
+import Navbar from '../Navbar/index';
 
 function template() {
   return (
+    <div>
+      <Navbar />
+    
     <div className="login animated lightSpeedIn slow   mx-auto my-5">
      
-
+  
         
     
      <form>
@@ -38,7 +42,7 @@ function template() {
   <button type="submit" className="btn btn-outline-white font-weight-bold">Register</button>
 </form>
 </div>
-     
+     </div>
   );
 };
 

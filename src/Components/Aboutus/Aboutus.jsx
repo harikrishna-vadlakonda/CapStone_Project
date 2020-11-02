@@ -1,10 +1,12 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import "./Aboutus.css";
 import React from "react";
+import Navbar from '../Navbar/index';
 
 function template() {
   return (
     <div className="aboutus">
+      <Navbar />
      <div className="container-fluid text-center">
  
   <p className="h3 font-weight bold">What We Offer</p>

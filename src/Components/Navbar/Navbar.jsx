@@ -2,7 +2,7 @@
 import "./Navbar.css";
 import React from "react";
 import Logo from '../images/Logo2-cropped.jpg'
-import {Link,BrowserRouter as Router} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 
 function template() {
   return (
@@ -10,8 +10,11 @@ function template() {
     
      <nav className="navbar navbar-dark bg-dark navbar-expand-sm">
            <img src={Logo} width="30px" height="30px" class="mx-1" />
-             <Link to="#" className="navbar-brand font-weight-bold">HQServices</Link>
-           <div className=" div1 collapse navbar-collapse">
+             <Link to="/" className="navbar-brand font-weight-bold">HQServices</Link>
+            {/* <button className="btn-toggler" data-toggle="collapse" data-target="#nav1">
+              <span className="btn-toggler-icon"></span>
+            </button> */}
+           <div className=" div1 collapse navbar-collapse" id="nav1">
              <ul className="navbar-nav font-weight-bold ml-auto">
                <li className="nav-item mx-2"><Link to="/" class="nav-link">Home</Link> </li>
             

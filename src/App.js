@@ -12,6 +12,7 @@ import Navbar from './Components/Navbar/index'
 import Login from './Components/Login/index';
 import Test from './Components/TestingComp/index'
 import About from './Components/Aboutus/index'
+import Mainservice from './Components/MainServiceComp/index'
 
 
 
@@ -23,10 +24,11 @@ function App() {
 
 
 <Router>
-  <Navbar />
+  {/* <Navbar /> */}
   <Switch>
     
-   <Route  path="/login" component={Login} />
+   <Route  path="/login" component={Mainservice} />
+   <Route  path="/logout" component={Login} />
     <Route exact path="/contact" component={ContactUs} />
     <Route exact path="/register" component={Test} />
     {/* <Route exact path="/register" component={Register} /> */}

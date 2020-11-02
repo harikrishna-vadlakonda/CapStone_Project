@@ -1,18 +1,21 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import "./TestingComp.css";
 import React from "react";
+import Navbar from '../Navbar/index';
 
 function template() {
   return (
-
-    <div className="testing-comp mx-auto my-1 animated  zoomIn slow   ">
-     
+   <div>
+     <Navbar />
+   
+    <div className="testing-comp mx-auto my-4 animated  zoomIn slow   ">
+    
 
         
       <div class="form1">
 
       <form className="mx-auto px-auto">
-        <p className="h2 font-weight-bold mt-1 mb-3 text-center">Registration</p>
+        <p className="h2 font-weight-bold mt-3 mb-3 text-center">Sign Up </p>
         <div className="form-group ">
           <input type="text" placeholder="First Name" className="form-control"
           onChange={(e)=>this.setState({
@@ -85,7 +88,7 @@ function template() {
                     </select>
                 </div>
                 <input value="Register" type="submit" className="btn btn-outline-white font-weight-bold mt-1 mx-auto" onClick={this.getdata} />
-              <br />
+              {/* <br />
               <p class="h6">Or sign up with:</p>
                 <a type="button" class="btn-floating btn-fb btn-sm">
         <i class="fab fa-facebook-f fa-1x"></i>
@@ -93,11 +96,11 @@ function template() {
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       <a type="button" class="btn-floating btn-git btn-sm">
         <i class="fab fa-github fa-1x"></i>
-      </a>
+      </a> */}
       
       </form>
        </div>
-  
+  </div>
     </div>
     
   );
