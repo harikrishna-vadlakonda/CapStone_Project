@@ -20,7 +20,7 @@ function template() {
          <div class="card m-0 p-0  mt-3" >
              <div class="row">
                  <div class="col-md-4">
-                     <img src={data.img} class="img-fluid" alt="ss" />
+                     <img src={data.img} height="300" width="300" alt="ss" />
                  </div>
                  <div class="col-md-8  ">
         <h3 class="card-title mt-3">{data.title}</h3>

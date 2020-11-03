@@ -27,7 +27,7 @@ function template(props) {
             <li className="nav-item mx-2 "><Link to="/beautyservice" class="nav-link">BeautyService</Link> </li>
             <li className="nav-item mx-2 "><Link to="/cleaningservice" class="nav-link">CleaningService</Link> </li>
             <li className="nav-item mx-1"><Link to="/carpenterservice" class="nav-link">CarpentorService</Link> </li> 
-                 
+            <li className="nav-item mx-1"><Link to="/tutorialservice" class="nav-link">TutorialService</Link> </li>    
                </div>
              
              </li>

@@ -14,6 +14,9 @@ import Test from './Components/TestingComp/index'
 import About from './Components/Aboutus/index'
 import Mainservice from './Components/MainServiceComp/index'
 import BeautyService from './Components/BeautyServices/index'
+import TutorialService from './Components/TutorialServices/index'
+import CarpentorService from './Components/CarpentorServices/index'
+import CleaningService from './Components/CleaningServices/index'
 
 
 
@@ -27,7 +30,10 @@ function App() {
 <Router>
 
   <Switch>
- < Route exact path="/beautyservice" component={BeautyService} />
+  <Route exact path="/tutorialservice" component={TutorialService} />
+  <Route exact path="/cleaningservice" component={CleaningService} />
+  <Route exact path="/carpenterservice" component={CarpentorService} />
+ <Route exact path="/beautyservice" component={BeautyService} />
   <Route exact path="/contact" component={ContactUs} />
    <Route  path="/login" component={Mainservice} />
    <Route  path="/homelogin" component={Mainservice} />
