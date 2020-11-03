@@ -15,11 +15,27 @@ function template(props) {
             </button> */}
            <div className=" div1 collapse navbar-collapse" id="nav1">
              <ul className="navbar-nav font-weight-bold ml-auto">
-               <li className="nav-item mx-2"><Link to='#es' class="nav-link">ElectricalService</Link> </li>
+             <li className="nav-item mx-2"><Link to='/homelogin' class="nav-link">Home</Link> </li>
+             <li className="nav-item mx-2 dropdown" ><Link data-toggle="dropdown" data-target="#dropdownservices" to='#' class="nav-link">Services
+               <i className="fa fa-caret-down"></i>
+             
+             </Link> 
+              
+               <div className="dropdown-menu bg-dark" id="dropdownservices">
+               <li className="nav-item mx-2"><Link to='/electricalservice' class="nav-link">ElectricalService</Link> </li>
+            
+            <li className="nav-item mx-2 "><Link to="/beautyservice" class="nav-link">BeautyService</Link> </li>
+            <li className="nav-item mx-2 "><Link to="/cleaningservice" class="nav-link">CleaningService</Link> </li>
+            <li className="nav-item mx-1"><Link to="/carpenterservice" class="nav-link">CarpentorService</Link> </li> 
+                 
+               </div>
+             
+             </li>
+               {/* <li className="nav-item mx-2"><Link to='/electricalservice' class="nav-link">ElectricalService</Link> </li>
             
                <li className="nav-item mx-2 "><Link to="/beautyservice" class="nav-link">BeautyService</Link> </li>
                <li className="nav-item mx-2 "><Link to="/cleaningservice" class="nav-link">CleaningService</Link> </li>
-               <li className="nav-item mx-1"><Link to="/carpenterservice" class="nav-link">CarpentorService</Link> </li>
+               <li className="nav-item mx-1"><Link to="/carpenterservice" class="nav-link">CarpentorService</Link> </li> */}
                <li className="nav-item mx-1"><Link to="/profile" class="nav-link">Profile</Link> </li>
             <li className="nav-item mx-1"><Link to="/logout" class="nav-link">Logout</Link> </li>
                
