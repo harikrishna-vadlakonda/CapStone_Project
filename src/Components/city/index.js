@@ -1,1 +1,2 @@
-export { default } from './city';
+import City from "./City";
+export default City;

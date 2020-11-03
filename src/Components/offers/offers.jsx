@@ -1,9 +1,13 @@
-import React, { Component } from 'react';
-import PlumberM from '../images/Electrical services/Electrician images/7e70f3495d9bc2851ec887687d749961.webp'
-import BeautyS from '../images/Beauty services/pexels-david-geib-3268732.jpg'
-class Offers extends Component {
-  render() {
-    return <div className="card-comp">
+import "./Offers.css";
+import React from "react";
+import PlumberM from '../images/Water.jpg'
+import Carpenter from '../images/carpennter.jpg'
+import BeautyS from '../images/beauticiannnnn.jpg';
+import Electrician from '../images/Electricityyy.jpg'
+
+function template() {
+  return (
+    <div className="card-comp">
     <div className="container mt-3">
       <div className="row">
         <div className="col-sm-3">
@@ -13,7 +17,7 @@ class Offers extends Component {
             </div>
 
             <div className="card-body">
-               <h4>Plumber Services</h4>
+               <h4>Water Leakages</h4>
              <p class=" text-muted">Up to 50% off</p>
                <button class="btn btn-primary btn-rounded btn-md">Explore</button>
             </div>
@@ -25,10 +29,10 @@ class Offers extends Component {
         <div className="col-sm-3">
           <div className="card custCard">
             <div className="card-header m-0 p-0">
-            <img src={BeautyS} alt="plumber" width="100%" height="300px" />
+            <img src={Electrician} alt="plumber" width="100%" height="300px" />
             </div>
             <div className="card-body">
-               <h4>Electrician Services</h4>
+               <h4>Electricity Breakdown</h4>
                <p class=" text-muted">Up to 30% off</p>
                <button class="btn btn-primary btn-rounded btn-md">Explore</button>
             </div>
@@ -39,10 +43,10 @@ class Offers extends Component {
         <div className="col-sm-3">
           <div className="card custCard">
             <div className="card-header m-0 p-0">
-            <img src={BeautyS} alt="plumber" width="100%" height="300px" />
+            <img src={Carpenter} alt="plumber" width="100%" height="300px" />
             </div>
             <div className="card-body">
-               <h4>Carpenter Services</h4>
+               <h4>New Furniture making</h4>
                <p class=" text-muted">Up to 60% off</p>
                <button class="btn btn-primary btn-rounded btn-md">Explore</button>
             </div>
@@ -55,7 +59,7 @@ class Offers extends Component {
             <img src={BeautyS} alt="plumber" width="100%" height="300px" />
             </div>
             <div className="card-body">
-               <h4  class="card-title">Beauty Services</h4>
+               <h4  class="card-title">Facial And Hair Services</h4>
                <p class=" text-muted">Up to 40% off</p>
                <button class="btn btn-primary btn-rounded btn-md">Explore</button>
             </div>
@@ -69,7 +73,7 @@ class Offers extends Component {
       
     </div>
   </div>
-  };
+);
 };
 
-export default Offers;
+export default template;

@@ -1,21 +1,33 @@
-import React, { Component } from 'react';
+import "./Features.css";
+import React from "react";
 
-class Features extends Component {
-  render() {
-    return <div class="container">
-    <div class="row">
-      <div class="col align-self-start">
-Transparent Pricing
-      </div>
-      <div class="col align-self-center">
-        Expert Professionals
-      </div>
-      <div class="col align-self-end">
-        Cancellation Within An Hour
-      </div>
+function template() {
+  return (
+  <div className="container-fluid text-center">
+     <div className="row text-white">
+        <div className="col-sm-4 bg-primary " >
+                  <span className="glyphicon glyphicon-heart logo-small"></span>
+      <h4>TRANSPARENCY IN PRICE</h4>
+      <p>Lorem ipsum dolor sit amet..</p>
     </div>
-  </div>
-  }
-}
+    </div>
+  
+    <div className="col-sm-4 bg-secondary">
+      <span className="glyphicon glyphicon-leaf logo-small"></span>
+      <h4>HIGH QUALITY SERVICES</h4>
+      <p>Lorem ipsum dolor sit amet..</p>
+    </div>
+    <div className="col-sm-4 bg-success">
+      <span className="glyphicon glyphicon-certificate logo-small"></span>
+      <h4>CERTIFIED PROFESSIONALS</h4>
+      <p>Lorem ipsum dolor sit amet..</p>
+    </div>
+     </div>
 
-export default Features;
+
+
+  
+  );
+};
+
+export default template;
