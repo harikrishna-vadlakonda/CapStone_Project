@@ -14,7 +14,7 @@ function template() {
       <CityComp />
    <Features />
 <Offers />
-{/* <Statistics /> */}
+<Statistics />
 <Footer />
     </div>
   );

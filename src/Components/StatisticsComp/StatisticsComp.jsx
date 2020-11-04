@@ -3,29 +3,25 @@ import React from "react";
 
 function template() {
   return (
-    <div className="statistics-comp">
+    <div className="statistics-comp container-fluid">
     <div class="row">
-  <div class="col-sm-4">
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">50,000 Customers Served</h5>
-      </div>
-    </div>
+  <div class="col-sm-4 text-center">
+ 
+      
+        <p class="h3 text-muted">50,000 Customers Served</p>
+   
+   
   </div>
-  <div class="col-sm-4">
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">5000 Verified Professionals</h5>
+  <div class="col-sm-4 text-center">
+    
+        <p class="h3 text-muted">5000 Verified Professionals</p>
       </div>
-    </div>
-  </div>
-  <div class="col-sm-4">
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">50+ live Services</h5>
+   
+  <div class="col-sm-4 text-center">
+   
+        <p class="h3 text-muted">50+ live Services</p>
       </div>
-    </div>
-  </div>
+    
 </div>
     </div>
   );
