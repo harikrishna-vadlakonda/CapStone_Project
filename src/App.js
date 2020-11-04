@@ -2,13 +2,12 @@
 import React from 'react';
 
 import './App.css';
-// import Form from './Components/Form'
+
 import Home from './Components/Home/index'
 import ContactUs from './Components/ContactUs/index'
 import {BrowserRouter as Router,Route,Switch} from 'react-router-dom'
 import Navbar from './Components/Navbar/index'
 import ElectricalService from './Components/ElectricalService/index'
-// import Register from './Components/Registration/index'
 import Login from './Components/Login/index';
 import Test from './Components/TestingComp/index'
 import About from './Components/Aboutus/index'
@@ -17,9 +16,12 @@ import BeautyService from './Components/BeautyServices/index'
 import TutorialService from './Components/TutorialServices/index'
 import CarpentorService from './Components/CarpentorServices/index'
 import CleaningService from './Components/CleaningServices/index'
+
 import Specific from './Components/SpecificServicecomp/index'
 
 
+
+import City from './Components/city/city'
 
 function App() {
   return (
@@ -37,7 +39,7 @@ function App() {
   <Route exact path="/carpenterservice" component={CarpentorService} />
  <Route exact path="/beautyservice" component={BeautyService} />
   <Route exact path="/contact" component={ContactUs} />
-   <Route  path="/login" component={Mainservice} />
+   <Route  path="/login" component={City} />
    <Route  path="/homelogin" component={Mainservice} />
    <Route  path="/logout" component={Login} />
     <Route exact path="/electricalservice" component={ElectricalService} />
