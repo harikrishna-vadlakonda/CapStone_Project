@@ -16,12 +16,13 @@ import BeautyService from './Components/BeautyServices/index'
 import TutorialService from './Components/TutorialServices/index'
 import CarpentorService from './Components/CarpentorServices/index'
 import CleaningService from './Components/CleaningServices/index'
-
+import City from './Components/City/index'
 import Specific from './Components/SpecificServicecomp/index'
 
 
 
-import City from './Components/City/index'
+
+
 
 function App() {
   return (

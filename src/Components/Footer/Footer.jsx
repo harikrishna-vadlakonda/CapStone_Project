@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom'
 
 function template() {
   return (
-    <div className="footer sticky-bottom ">
+    <div className="footer sticky-bottom mt-3 ">
  
 <footer class="page-footer font-small bg-dark">
 
