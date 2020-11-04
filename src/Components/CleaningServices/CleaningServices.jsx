@@ -1,4 +1,5 @@
 import "./CleaningServices.css";
+import {Link} from 'react-router-dom'
 import React from "react";
 import NavbarAfterLogin from '../NavbarAfterLoginIn/index'
 import Footer from '../Footer/index'
@@ -20,7 +21,7 @@ function template() {
                  <div class="col-md-8  ">
         <h3 class="card-title mt-3">{data.title}</h3>
         <p>{data.description}</p>
-                     <button class="btn font-weight-bold btn-primary">Avail service</button>
+          <Link to="/specific"><button class="btn font-weight-bold btn-primary">Avail service</button></Link>
                     </div>
              </div>
          </div>

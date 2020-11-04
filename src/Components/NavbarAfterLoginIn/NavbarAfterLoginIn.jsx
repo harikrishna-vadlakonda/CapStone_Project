@@ -15,6 +15,7 @@ function template(props) {
             </button> */}
            <div className=" div1 collapse navbar-collapse" id="nav1">
              <ul className="navbar-nav font-weight-bold ml-auto">
+             {/* <li className="nav-item mx-2"><Link to='/specific' class="nav-link">Specific</Link> </li> */}
              <li className="nav-item mx-2"><Link to='/homelogin' class="nav-link">Home</Link> </li>
              <li className="nav-item mx-2 dropdown" ><Link data-toggle="dropdown" data-target="#dropdownservices" to='#' class="nav-link">Services
                <i className="fa fa-caret-down"></i>

@@ -17,6 +17,7 @@ import BeautyService from './Components/BeautyServices/index'
 import TutorialService from './Components/TutorialServices/index'
 import CarpentorService from './Components/CarpentorServices/index'
 import CleaningService from './Components/CleaningServices/index'
+import Specific from './Components/SpecificServicecomp/index'
 
 
 
@@ -30,6 +31,7 @@ function App() {
 <Router>
 
   <Switch>
+  <Route exact path="/specific" component={Specific} />
   <Route exact path="/tutorialservice" component={TutorialService} />
   <Route exact path="/cleaningservice" component={CleaningService} />
   <Route exact path="/carpenterservice" component={CarpentorService} />
