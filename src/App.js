@@ -21,7 +21,7 @@ import Specific from './Components/SpecificServicecomp/index'
 
 
 
-import City from './Components/city/city'
+import City from './Components/City/index'
 
 function App() {
   return (
