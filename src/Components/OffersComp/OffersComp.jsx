@@ -18,7 +18,7 @@ function template() {
             </div>
 
             <div className="card-body">
-               <h4>Water Leakages</h4>
+               <h4>Water Leakage Services</h4>
              <p class=" text-muted">Up to 50% off</p>
                <button class="btn btn-primary btn-rounded btn-md">Explore</button>
             </div>

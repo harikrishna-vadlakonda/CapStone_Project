@@ -16,8 +16,8 @@ import BeautyService from './Components/BeautyServices/index'
 import TutorialService from './Components/TutorialServices/index'
 import CarpentorService from './Components/CarpentorServices/index'
 import CleaningService from './Components/CleaningServices/index'
-// import City from './Components/City/index'
-import City from './Components/CityComp/index'
+import AfterLoginCityComp from './Components/AfterLoginFirstComp/index'
+// import City from './Components/CityComp/index'
 import Specific from './Components/SpecificServicecomp/index'
 
 
@@ -41,7 +41,7 @@ function App() {
   <Route exact path="/carpenterservice" component={CarpentorService} />
  <Route exact path="/beautyservice" component={BeautyService} />
   <Route exact path="/contact" component={ContactUs} />
-   <Route  path="/login" component={City} />
+   <Route  path="/login" component={AfterLoginCityComp} />
    <Route  path="/homelogin" component={Mainservice} />
    <Route  path="/logout" component={Login} />
     <Route exact path="/electricalservice" component={ElectricalService} />

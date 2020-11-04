@@ -1,36 +1,35 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import "./CityComp.css";
 import React from "react";
-import Features from '../FeaturesComp/index'
-import Offers from '../OffersComp/index'
-import Statistics from '../StatisticsComp/index'
-import Footer from '../Footer/index'
-import NavbarAfterLogin from '../NavbarAfterLoginIn/index'
+import {Link} from 'react-router-dom'
+
 
 function template() {
   return (
-    <div className="city-comp">
-        <NavbarAfterLogin />
-     <div class="container"> 
-          <h1>High Quality Services On Demand </h1>
-          
-      <div class="dropdown show">
-        <h2>Where do you need a service</h2>
-  <a class="btn btn-secondary dropdown-toggle" href="/#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Select A City
-  </a>
+    <div className="city-comp ">
+      
+     <div className="wrapper d-flex flex-column align-items-center justify-content-center">
 
-  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-    <a class="dropdown-item" href="/#">Warangal</a>
-    <a class="dropdown-item" href="/#">Karimnagar</a>
-    <a class="dropdown-item" href="/#">Nizamabad</a>
+
+     <p className="display-3 font-weight-bold text-white">Where Do You Need A Service</p>
+           <div class="dropdown show">
+       
+  <a class="btn btn-outline-white bg-dark font-weight-bold text-white  btn-lg dropdown-toggle" href="/#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Select A City
+  </a> 
+
+  <div class="dropdown-menu bg-dark text-white" aria-labelledby="dropdownMenuLink">
+        
+  
+    <Link className="dropdown-item c2 text-white" to="/homelogin">Warangal</Link>
+    <Link className="dropdown-item c2 text-white" to="/homelogin">Karimnagar</Link>
+    <Link className="dropdown-item c2 text-white" to="/homelogin">Nizamabad</Link>
   </div>
 </div>
-</div>
-<Features />
-<Offers />
-<Statistics />
-<Footer />
-    </div>
+           </div>
+          
+         </div>
+     
   );
 };
 
