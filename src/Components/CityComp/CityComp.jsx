@@ -1,18 +1,16 @@
-import "./City.css";
+import "./CityComp.css";
 import React from "react";
-import Features from '../Features/index'
-import Offers from '../Offers/index'
-import Statistics from '../Satistics/index'
+import Features from '../FeaturesComp/index'
+import Offers from '../OffersComp/index'
+import Statistics from '../StatisticsComp/index'
 import Footer from '../Footer/index'
-
-
-
+import NavbarAfterLogin from '../NavbarAfterLoginIn/index'
 
 function template() {
   return (
-    <div className="city">
-  
-      <div class="container"> 
+    <div className="city-comp">
+        <NavbarAfterLogin />
+     <div class="container"> 
           <h1>High Quality Services On Demand </h1>
           
       <div class="dropdown show">
@@ -28,12 +26,11 @@ function template() {
   </div>
 </div>
 </div>
-<Features/>
-<Offers/> <br/><br/>
-<Statistics/>
-<Footer/>
+<Features />
+<Offers />
+<Statistics />
+<Footer />
     </div>
-  
   );
 };
 

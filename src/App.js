@@ -16,7 +16,8 @@ import BeautyService from './Components/BeautyServices/index'
 import TutorialService from './Components/TutorialServices/index'
 import CarpentorService from './Components/CarpentorServices/index'
 import CleaningService from './Components/CleaningServices/index'
-import City from './Components/City/index'
+// import City from './Components/City/index'
+import City from './Components/CityComp/index'
 import Specific from './Components/SpecificServicecomp/index'
 
 
