@@ -1,10 +1,10 @@
 import Axios from 'axios'
 
 
-function GetServerData(url,data) {
+function SendDataToServer(url,data) {
   alert("servercall")
-  alert(data)
+ 
   return  Axios.post(url,data)
 }
 
-export default GetServerData
+export default SendDataToServer 

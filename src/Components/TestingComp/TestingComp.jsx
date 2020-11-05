@@ -15,7 +15,7 @@ function template() {
       <div class="form1">
 
       <form className="mx-auto px-auto">
-        <p className="h2 font-weight-bold mt-3 mb-3 text-center">Sign Up </p>
+        <p className="h2 font-weight-bold mt-3 mb-3 text-center">Register As A User </p>
         <div className="form-group ">
           <input type="text" placeholder="First Name" className="form-control"
           onChange={(e)=>this.setState({
@@ -60,18 +60,7 @@ function template() {
           />
         </div>
        
-        <div class="form-check"
-        onChange={(e)=>this.setState({
-          ...this.state,
-          gender:e.target.value
-        })}
-        >
-                    <label className="form-check-label h6 font-weight-bold">Select Gender</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <input type="radio" value="male" name="gender" class="form-check-input" />
-                    <label className="form-check-label h6 font-weight-bold">Male</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <input type="radio" value="female" name="gender" class="form-check-input" />
-                    <label className="form-check-label  h6 font-weight-bold">Female</label>
-                </div>
+        
 
         <div className="form-group mt-2"
         onChange={(e)=>this.setState({
@@ -87,16 +76,21 @@ function template() {
                         <option>Latur</option>
                     </select>
                 </div>
-                <input value="Register" type="submit" className="btn btn-outline-white font-weight-bold mt-1 mx-auto" onClick={this.getdata} />
-              {/* <br />
-              <p class="h6">Or sign up with:</p>
-                <a type="button" class="btn-floating btn-fb btn-sm">
-        <i class="fab fa-facebook-f fa-1x"></i>
-      </a>
-     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <a type="button" class="btn-floating btn-git btn-sm">
-        <i class="fab fa-github fa-1x"></i>
-      </a> */}
+
+                <div class="form-check"
+        onChange={(e)=>this.setState({
+          ...this.state,
+          gender:e.target.value
+        })}
+        >
+                    <label className="form-check-label h6 font-weight-bold">Select Gender</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="radio" value="male" name="gender" class="form-check-input" />
+                    <label className="form-check-label h6 font-weight-bold">Male</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="radio" value="female" name="gender" class="form-check-input" />
+                    <label className="form-check-label  h6 font-weight-bold">Female</label>
+                </div>
+                <input value="Register" type="submit" className="btn btn-outline-white font-weight-bold mt-3 mx-auto" onClick={this.getdata} />
+              
       
       </form>
        </div>

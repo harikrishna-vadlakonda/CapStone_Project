@@ -3,7 +3,7 @@ import React from "react";
 
 function template() {
   return (
-    <div className="features-comp">
+    <div className="features-comp mt-3">
    <div className="container-fluid text-center">
  
 

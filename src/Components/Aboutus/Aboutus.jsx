@@ -2,6 +2,7 @@
 import "./Aboutus.css";
 import React from "react";
 import Navbar from '../Navbar/index';
+import Footer from '../Footer/index'
 
 function template() {
   return (
@@ -256,7 +257,7 @@ function template() {
  
 
 </div>
-
+<Footer />
     </div>
   );
 };

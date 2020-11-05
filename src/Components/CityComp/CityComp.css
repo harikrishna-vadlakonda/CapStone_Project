@@ -1,12 +1,12 @@
 .city-comp {
-    background: url('../images/Landing/QH@.jpg') no-repeat center  ;
+    background: url('../images/HomeService.png') no-repeat center  ;
     background-size: cover;
  
     height:100vh;
    
 }
 .wrapper {
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0,0,0,0.7);
    height:100vh;
 }
 .c2:hover {

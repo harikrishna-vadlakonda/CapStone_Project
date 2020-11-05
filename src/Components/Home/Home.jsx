@@ -6,6 +6,9 @@ import CardComp from '../CardComp/index'
 import TextC from '../TextComp/index'
 import Reviews from '../Reviews/index'
 import Footer from '../Footer/index'
+import Features from '../FeaturesComp/index'
+import Statistic from '../StatisticsComp/index'
+import Why from '../WhyBookUs/index'
 
 function template() {
   return (
@@ -14,8 +17,11 @@ function template() {
       <Carousel />
       <TextC />
       <CardComp />
+      <Why />
+      <Features />
       <Reviews />
-      <Footer />
+      <Statistic />
+      <Footer  />
     </div>
   );
 };

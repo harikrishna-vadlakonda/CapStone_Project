@@ -16,6 +16,7 @@ function template() {
             </button> */}
            <div className=" div1 collapse navbar-collapse" id="nav1">
              <ul className="navbar-nav font-weight-bold ml-auto">
+             <li className="nav-item mx-2 reg"><Link to="/registerasprofessional" class=" reg nav-link"><i class="fas fa-user-tie "></i>&nbsp;Register As A Professional</Link> </li>
                <li className="nav-item mx-2"><Link to="/" class="nav-link">Home</Link> </li>
             
                <li className="nav-item mx-2 "><Link to="/contact" class="nav-link">ContactUs</Link> </li>

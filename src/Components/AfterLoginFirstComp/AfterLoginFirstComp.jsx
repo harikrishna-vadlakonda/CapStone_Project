@@ -12,8 +12,9 @@ function template() {
     <div className="after-login-first-comp">
       <NavbarAfterLogin />
       <CityComp />
-   <Features />
+   
 <Offers />
+<Features />
 <Statistics />
 <Footer />
     </div>

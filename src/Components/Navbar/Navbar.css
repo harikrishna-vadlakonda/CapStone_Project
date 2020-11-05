@@ -2,3 +2,6 @@
     background: linear-gradient(45deg,black,darkblue);
     /* background-color: #2d2d30; */
 }
+.reg {
+    text-decoration: underline;
+}
