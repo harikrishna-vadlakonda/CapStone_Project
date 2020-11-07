@@ -1,6 +1,8 @@
 import React    from "react";
 import template from "./Login.jsx";
 import GetServerData from '../../Services/servercall'
+import {connect} from 'react-redux'
+import myStore from '../../Store/store'
 
 
 class Login extends React.Component {
@@ -10,14 +12,20 @@ class Login extends React.Component {
     this.state = {
        "mobilenumber":'',
        "password":'',
-       "LogedIn":"false"
+       "LogedIn":"false",
+       data:this.props.Data
     }
   }
       getData = ()=>{
-    
+          //this is used to call ajxcall
            GetServerData("http://localhost:5000/api/users/login",this.state).then((res)=>{
              alert(JSON.stringify(res.data.token));
-            //  document.write(JSON.stringify(res))
+
+             //Calling Dispatch method
+             myStore.dispatch({
+               
+             })
+           
           
          
             if(res.statusText==="OK"){
@@ -34,5 +42,10 @@ class Login extends React.Component {
     return template.call(this);
   }
 }
+    
 
-export default Login;
+export default connect((dispatch)=>{
+  return {
+    distaptch:myStore.dispatch,
+  }
+})(Login)
