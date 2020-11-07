@@ -4,32 +4,42 @@ import NavbarAfterLogin from '../NavbarAfterLoginIn/index'
 
 function template() {
   return (
-    <div className="profile m-4  text-white">
+    <div className="profile text-white  ">
      <NavbarAfterLogin />
-<div class="card bg-dark m-4 testimonial-card">
+     <div  >
+      
+      
+<div class="card bg-dark1 text-white  testimonial-card profileCard">
 
 
-<div class="card-up indigo lighten-1"></div>
+
 
 
 <div class="avatar mx-auto white">
-  <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg" class="rounded-circle"
+  <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg" className="rounded-circle" width="100%"
     alt="woman avatar" />
 </div>
 
 
-<div class="card-body">
+<div className="card-body text-center">
   
-  <h4 class="card-title">Anna Doe</h4>
+  <p className="card-title h4">Anna Doe</p>
   <hr />
   
-  <p><i class="fas fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci
-  </p>
+ <p className="h5 card-title">Email:"Alex@gmail.com"</p>
+ <hr />
+  <p className="h5 card-title">User ID:{this.state.data.userId}</p>
+  <hr />
+  <p className="h5 card-title">Mobile Number:{this.state.data.mobilenumber}</p>
+  <hr />
+
 </div>
 
 </div>
 
     </div>
+    </div>
+    
   );
 };
 

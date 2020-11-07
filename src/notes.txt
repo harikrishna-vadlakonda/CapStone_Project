@@ -2,4 +2,20 @@ Images Dimension for Indiviual services(sub Services) :
     width:3433 
     height:2285 
 
-=========================================================================
+========================================================================= 
+    
+    var currValue = {
+        Profiledata:{}
+    }
+
+    myReducer = (currValues,action) => {
+       currValue = {
+           Profiledata:action.payload
+       }
+
+
+        return currValue
+
+
+
+    }   

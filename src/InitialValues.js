@@ -1,4 +1,4 @@
 var InitialValues = {
-   ClientData:''
+   UserData:''
 }
 export default InitialValues;

@@ -1,0 +1,8 @@
+.profileCard{
+    width:500px;
+    margin: auto;
+    margin-top: 20px;
+}
+.bg-dark1 {
+    background: linear-gradient(135deg,black,darkblue);
+}

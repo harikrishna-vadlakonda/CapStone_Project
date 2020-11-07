@@ -8,7 +8,7 @@ class TestingComp extends React.Component {
 
   getdata = ()=> {
     alert("getdata Triggered")
-    GetDataserver("http://localhost:5000/api/users/signup",this.state).then((res)=>{
+    GetDataserver("http://localhost:6000/api/users/signup",this.state).then((res)=>{
       alert(JSON.stringify(res))
       console.log(res);
     },(err)=>{

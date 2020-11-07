@@ -2,7 +2,7 @@ import Axios from 'axios'
 
 
 function SendDataToServer(url,data) {
-  alert("servercall")
+  alert("servercall");
  
   return  Axios.post(url,data)
 }

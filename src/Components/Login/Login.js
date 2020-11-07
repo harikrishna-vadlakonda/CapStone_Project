@@ -23,7 +23,8 @@ class Login extends React.Component {
 
              //Calling Dispatch method
              myStore.dispatch({
-               
+               type:'LOGIN',
+               payload:res
              })
            
           
@@ -33,6 +34,7 @@ class Login extends React.Component {
             }
 
            },(err)=>{
+             alert("Error Occured")
               alert(err)
               console.log(err)
            });
@@ -44,8 +46,8 @@ class Login extends React.Component {
 }
     
 
-export default connect((dispatch)=>{
+export default connect(null,(dispatch)=>{
   return {
-    distaptch:myStore.dispatch,
+    dispatch,
   }
 })(Login)

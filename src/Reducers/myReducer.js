@@ -1,10 +1,9 @@
 import InitialValue from '../InitialValues'
 
 const myReducer = (currValue=InitialValue,action)=>{
-      InitialValue = {
-         clientData:''
-      }
-
+     currValue = {
+        UserData:action.payload
+     }
     return currValue;
 
 }
