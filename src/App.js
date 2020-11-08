@@ -47,7 +47,7 @@ function App() {
    <Route  path="/citycomp" component={AfterLoginCityComp} />
    <Route path="/login" component={Login} />
    <Route  path="/homelogin" component={Mainservice} />
-   <Route  path="/logout" component={Login} />
+   <Route  path="/logout" component={Home} />
     <Route exact path="/electricalservice" component={ElectricalService} />
     <Route exact path="/register" component={TestingComp} />
     <Route exact path="/registerasprofessional" component={ProfessionalReg} />

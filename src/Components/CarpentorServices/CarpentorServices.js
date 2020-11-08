@@ -3,8 +3,29 @@ import template from "./CarpentorServices.jsx";
 import Image1 from '../images/Carpenter services/pexels-bidvine-1249611.jpg'
 import Image2 from '../images/Carpenter services/pexels-pixabay-209235.jpg'
 import Image3 from '../images/Carpenter services/pexels-pixabay-221027.jpg'
+import {connect} from 'react-redux'
+import GetDataFromServer from '../../Services/Getservercall'
+
+
 
 class CarpentorServices extends React.Component {
+  getData = (servicetitle) => {
+    GetDataFromServer("http://localhost:5000/api/servicess/").then((res)=>{
+         
+          const filteredData = res.data.servicess.filter((d,i)=>{
+                          return d.services === servicetitle
+          })
+          console.log(res)
+          this.props.dispatch({
+            type:'SERVICES',
+            payload:filteredData
+
+          })
+         
+            this.props.history.push("/specific")
+      
+    })
+}
   constructor(props) {
     super(props)
   
@@ -38,4 +59,8 @@ class CarpentorServices extends React.Component {
   }
 }
 
-export default CarpentorServices;
+export default connect(null,(dispatch)=>{
+  return {
+    dispatch
+  }
+})(CarpentorServices)

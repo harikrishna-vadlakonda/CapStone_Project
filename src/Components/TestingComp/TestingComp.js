@@ -1,6 +1,6 @@
 import React    from "react";
 import template from "./TestingComp.jsx";
-import GetDataserver from '../../Services/servercall'
+import GetDataserver from '../../Services/Postservercall'
 
 class TestingComp extends React.Component {
 
@@ -8,8 +8,11 @@ class TestingComp extends React.Component {
 
   getdata = ()=> {
     alert("getdata Triggered")
-    GetDataserver("http://localhost:6000/api/users/signup",this.state).then((res)=>{
-      alert(JSON.stringify(res))
+    GetDataserver("http://localhost:5000/api/users/signup",this.state).then((res)=>{
+      if(res.statusText==="OK"){
+        this.props.history.push("/login");
+      }
+    
       console.log(res);
     },(err)=>{
       alert(err);

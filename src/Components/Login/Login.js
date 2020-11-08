@@ -1,6 +1,6 @@
 import React    from "react";
 import template from "./Login.jsx";
-import GetServerData from '../../Services/servercall'
+import GetServerData from '../../Services/Postservercall'
 import {connect} from 'react-redux'
 import myStore from '../../Store/store'
 
@@ -19,7 +19,8 @@ class Login extends React.Component {
       getData = ()=>{
           //this is used to call ajxcall
            GetServerData("http://localhost:5000/api/users/login",this.state).then((res)=>{
-             alert(JSON.stringify(res.data.token));
+             alert(JSON.stringify(res.data));
+            
 
              //Calling Dispatch method
              myStore.dispatch({

@@ -4,18 +4,59 @@ Images Dimension for Indiviual services(sub Services) :
 
 ========================================================================= 
     
-    var currValue = {
-        Profiledata:{}
-    }
+Login:                      http://localhost:5000/api/users/login 
+GetOneUser:                   http://localhost:5000/api/users/:uid'
 
-    myReducer = (currValues,action) => {
-       currValue = {
-           Profiledata:action.payload
-       }
+Registration:               http://localhost:5000/api/users/signin 
+ 
+GetAllServices:             http://localhost:5000/api/servicess/ 
+
+PostServiceProviderData:      http://localhost:5000/api/servicess/
+
+GetServiceById:             http://localhost:5000/api/servicess/:servicessbyid 
+
+getServicessByUserId:       http://localhost:5000/api/servicess/user/:usersbyid
+
+searchServices:              http://localhost:5000/api/servicess/search/:query'
 
 
-        return currValue
+======================================================================================
+
+    Warangal : 
+     5 
+     Electrical 
+         1) Repair & Fixes 2) Electricity Breakdown 3)Electrical Wiring 4) Installation Services
+          
+     Plumber 
+     Carpenter 
+     Beautician 
+     Tutorial 
+
+
+     ============================================ 
+
+     Fullname 
+     City 
+     Mobilenumber 
+     gender
+     password 
+     service -Electrical or tutorial
+     subservice -  1) Repair & Fixes 2) Electricity Breakdown 
+     price:
+
+     ================================================== 
+      Electrical Service : 
+         1) Repair & Fixes :     
+               -Warangal  :  1,2,3,4 
+               -Karimnagar: 1,2,3,4  
+               ...... 
+
+         2) Electricity Breakdown : 
 
 
 
-    }   
+         res.data = [{
+
+         } ,{
+
+         }]

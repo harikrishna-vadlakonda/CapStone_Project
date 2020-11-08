@@ -1,27 +1,41 @@
 import React    from "react";
 import template from "./ProfessionalReg.jsx";
-import SendDatatoServer from  '../../Services/servercall'
+import SendDatatoServer from  '../../Services/Postservercall'
+
 
 class ProfessionalReg extends React.Component {
   constructor(props) {
     super(props)
   
     this.state = {
-       "fullname":'',
-       "password":'',
+       "name":'',
        "mobilenumber":'',
-       "service":'',
-       "city":''
+       "services":'',
+       "city":'',
+       "gender":'',
+       "price":'',
+     
+     
+      
+       
+       
 
     }
   }
+  
   getdata = ()=>{
-   SendDatatoServer("",this.state).then((res)=>{
-    if(res.statusText==="OK"){
-      this.props.history.push("/login");
-    }       
+    alert(JSON.stringify(this.state))
+   SendDatatoServer("http://localhost:5000/api/servicess/",this.state).then((res)=>{
+     
+     alert("Registered Successfully")
+     console.log(res)
+     
+      // this.props.history.push("/login");
+         
 
    },(err)=>{
+     alert("Error Occured")
+     alert(err)
 
    })
   }

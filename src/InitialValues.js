@@ -1,4 +1,6 @@
 var InitialValues = {
-   UserData:''
+   UserData:'',
+   AllServices:'',
+   Services:[]
 }
 export default InitialValues;

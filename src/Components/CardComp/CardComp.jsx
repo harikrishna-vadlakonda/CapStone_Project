@@ -1,6 +1,6 @@
 import "./CardComp.css";
 import React from "react";
-import PlumberM from '../images/PlumberMeduim.jpg'
+import CleaningS from '../images/Cleaning services/pexels-karolina-grabowska-4239091.jpg'
 import Carpenter from '../images/CarpenterMedium.jpg'
 import BeautyS from '../images/BeautyMedium.jpg';
 import Electrician from '../images/ElectricianMedium1.jpeg'
@@ -13,11 +13,11 @@ function template() {
           <div className="col-sm-3">
             <div className="card custCard h-20">
               <div className="card-header p-0">
-              <img src={PlumberM} alt="plumber" width="100%" height="300px" />
+              <img src={CleaningS} alt="plumber" width="100%" height="300px" />
               </div>
 
               <div className="card-body">
-                 <h4>Plumber Services</h4>
+                 <h4>Cleaning Services</h4>
                <p class=" text-muted">Up to 50% off</p>
                  <button class="btn btn-primary btn-rounded btn-md">Explore</button>
               </div>

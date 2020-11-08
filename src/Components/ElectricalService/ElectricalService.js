@@ -1,14 +1,39 @@
+/* eslint-disable no-useless-constructor */
 import React    from "react";
 import template from "./ElectricalService.jsx";
 import Image2 from '../images/Electrical services/pexels-pixabay-257736.jpg'
 import Image1 from '../images/Electrical services/pexels-pixabay-257886.jpg'
 
+import {connect} from 'react-redux'
+import GetDataFromServer from '../../Services/Getservercall'
+
+
 
 class ElectricalService extends React.Component {
+
+  
+  getData = (servicetitle) => {
+    GetDataFromServer("http://localhost:5000/api/servicess/").then((res)=>{
+         
+          const filteredData = res.data.servicess.filter((d,i)=>{
+                          return d.services === servicetitle
+          })
+          console.log(res)
+          this.props.dispatch({
+            type:'SERVICES',
+            payload:filteredData
+
+          })
+         
+            this.props.history.push("/specific")
+      
+    })
+}
+  
   constructor(props) {
     super(props)
   
-    this.electricalServiceData = [
+    this.state = [
       {
      img:Image2,
      title:'Repair & Fixes Service',
@@ -39,4 +64,8 @@ class ElectricalService extends React.Component {
   }
 }
 
-export default ElectricalService;
+export default connect(null,(dispatch)=>{
+  return {
+    dispatch
+  }
+})(ElectricalService);

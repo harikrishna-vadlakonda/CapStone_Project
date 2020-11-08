@@ -2,9 +2,12 @@ import "./ProfessionalReg.css";
 import React from "react";
 import Navbar from '../Navbar/index';
 
+
 function template() {
   return (
+   
     <div className="professional-reg">
+      
       <Navbar />
    
    <div className="testing-comp mx-auto my-4 animated  slideInLeft ">
@@ -19,7 +22,7 @@ function template() {
          <input type="text" placeholder="Full Name" className="form-control"
          onChange={(e)=>this.setState({
            ...this.state,
-           fullname:e.target.value
+           name:e.target.value
          })} 
          />
        </div>
@@ -27,14 +30,7 @@ function template() {
       
       
 
-       <div className="form-group">
-         <input type="password" placeholder="Password" className="form-control" 
-         onChange={(e)=>this.setState({
-           ...this.state,
-           password:e.target.value
-         })}
-         />
-       </div>
+       
 
        <div className="form-group">
          <input type="number" placeholder="Mobile Number" className="form-control"
@@ -44,22 +40,51 @@ function template() {
          })}
          />
        </div>
+
+       <div className="form-group">
+         <input type="number" placeholder="Enter Amount To Be Charged" className="form-control"
+         onChange={(e)=>this.setState({
+           ...this.state,
+           price:e.target.value
+         })}
+         />
+       </div>
       
        
 
                <div className="form-group mt-2"
        onChange={(e)=>this.setState({
          ...this.state,
-         service:e.target.value
+         services:e.target.value
        })}
        >
-                   <select className="form-control">
+                   <select className=" form-control">
                        <option>Select Service</option>
-                       <option>Electrician</option>
-                       <option>Plumber</option>
-                       <option>Carpenter</option>
-                       <option>Beautician</option>
-                       <option>Tutor</option>
+                      
+                       <option>Repairs & Fixes</option>
+                 <option >Electricity Breakdown</option>
+                       <option>Electrical wiring</option>
+                       <option>Installation Services</option>
+                       <option>Repairs & Fixes</option>
+                       <option>New Furniture Making</option>
+                       <option>Other Wood Work</option>
+                       <option>Door & Window Repairs</option>
+                       <option>Pipe & Tap fitting</option>
+                       <option>Water Leakage</option>
+                       <option>Facial & Hair Service</option>
+                       <option>Body Massage</option>
+                       <option>Women Special</option>
+                       <option>General Beauty Service</option>
+                       <option>IT Courses</option>
+                       <option>Exam Preparation</option>
+                       <option>Home Tuitions</option>
+                       <option>Music Classes</option>
+                       <option>Car Washing</option>
+                       <option>Home Cleaning</option>
+                       <option>Carpet Cleaning</option>
+                       <option>General Cleaning</option>
+                     
+
                    </select>
                </div>
 
@@ -72,9 +97,9 @@ function template() {
                    <select className="form-control">
                        <option>Select City</option>
                        <option>Karimnagar</option>
-                       <option>Dhule</option>
+                       <option>Vijaywada</option>
                        <option>Warangal</option>
-                       <option>Latur</option>
+                       <option>Tirupati</option>
                    </select>
                </div>
                <div class="form-check"

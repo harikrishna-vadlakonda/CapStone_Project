@@ -35,12 +35,12 @@ function template() {
     <div className="main-service-comp">
       <NavbarAfterLoginIn  />
      <Landing />
-    <AllService  title="Electrician Services" img1={EImage1} servicename1="Fan Service" img2={EImage2} servicename2="Tv Service" img3={EImage3} servicename3="Ac Service" />
-     <AllService title="Beauty Services"  img1={BImage1} servicename1="Hair Sallon" img2={BImage2} servicename2="Body Massage" img3={BImage3} servicename3="Menicure&Pedicure" />
+    <AllService  title="Electrician Services" img1={EImage1} servicename1="Electricity Breakdown" img2={EImage2} servicename2="Electrical wiring" img3={EImage3} servicename3="Installation Services" />
+     <AllService title="Beauty Services"  img1={BImage1} servicename1="Facial & Hair Service" img2={BImage2} servicename2="Body Massage" img3={BImage3} servicename3="Menicure&Pedicure" />
      <AllService title="Cleaning Services"  img1={PImage1} servicename1="Car Wash" img2={PImage2} servicename2="Washroom Washing" img3={PImage3} servicename3="Room Washing" />
-     <AllService title="Carpenter Services"  img1={CImage1} servicename1="Custom Sheds And Barns" img2={CImage2} servicename2="Window Shutters" img3={CImage3} servicename3="Stairs And Railings" />
+     <AllService title="Carpenter Services"  img1={CImage1} servicename1="New Furniture Making" img2={CImage2} servicename2="Other Wood Work" img3={CImage3} servicename3="Stairs And Railings" />
    
-     <AllService title="Tutorial Services"  img1={TImage1} servicename1="Private Tuition" img2={TImage2} servicename2="Online Session" img3={TImage3} servicename3="Assignment" />
+     <AllService title="Tutorial Services"  img1={TImage1} servicename1="Home Tuition" img2={TImage2} servicename2="IT Courses" img3={TImage3} servicename3="Music Classes" />
  
      <Footer />
     </div>
