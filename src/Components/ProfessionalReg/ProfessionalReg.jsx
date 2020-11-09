@@ -60,25 +60,30 @@ function template() {
        >
                    <select className=" form-control">
                        <option>Select Service</option>
-                      
+                       <option className="font-weight-bold text-primary p-5" disabled>ELECTRICITY SERVICES</option>
+                    
                        <option>Repairs & Fixes</option>
                  <option >Electricity Breakdown</option>
                        <option>Electrical wiring</option>
                        <option>Installation Services</option>
+                       <option className="font-weight-bold text-primary p-5" disabled>CARPENTER SERVICES</option>
                        <option>Repairs & Fixes</option>
                        <option>New Furniture Making</option>
                        <option>Other Wood Work</option>
                        <option>Door & Window Repairs</option>
-                       <option>Pipe & Tap fitting</option>
-                       <option>Water Leakage</option>
+                       <option className="font-weight-bold text-primary p-5" disabled>BEAUTY SERVICES</option>
+                     
+                      
                        <option>Facial & Hair Service</option>
                        <option>Body Massage</option>
                        <option>Women Special</option>
                        <option>General Beauty Service</option>
+                       <option className="font-weight-bold text-primary p-5" disabled>TUTORIAL SERVICES</option>
                        <option>IT Courses</option>
                        <option>Exam Preparation</option>
                        <option>Home Tuitions</option>
                        <option>Music Classes</option>
+                       <option disabled className="font-weight-bold text-primary p-5">CLEANING SERVICES</option>
                        <option>Car Washing</option>
                        <option>Home Cleaning</option>
                        <option>Carpet Cleaning</option>
