@@ -21,7 +21,7 @@ import AfterLoginCityComp from './Components/AfterLoginFirstComp/index'
 // import City from './Components/CityComp/index'
 import Specific from './Components/SpecificServicecomp/index'
 import TestingComp from './Components/TestingComp/TestingComp'
-
+import PaymentGateway from './Components/PaymentGateway' 
 
 
 
@@ -48,6 +48,9 @@ function App() {
    <Route path="/login" component={Login} />
    <Route  path="/homelogin" component={Mainservice} />
    <Route  path="/logout" component={Home} />
+   
+   <Route  path="/payment" component={PaymentGateway} />
+
     <Route exact path="/electricalservice" component={ElectricalService} />
     <Route exact path="/register" component={TestingComp} />
     <Route exact path="/registerasprofessional" component={ProfessionalReg} />

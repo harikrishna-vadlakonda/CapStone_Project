@@ -62,8 +62,7 @@ function template() {
   <h4 class="card-title">Anna Doe</h4>
   <hr />
 
-  <p><i class="fas fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci
-  </p>
+  <p><i class="fas fa-quote-left"></i>My  home was definitely in need of a renovation. I booked an appointment with HQServices and I must say the people are professional and are on time. </p>
 </div>
 
 </div>
@@ -87,7 +86,7 @@ function template() {
  <h4 class="card-title">Aish Goel</h4>
  <hr />
 
- <p><i class="fas fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci
+ <p><i class="fas fa-quote-left"></i> my husband and I decided to get it done as soon as the relaxation on the lockdown happens and we got it done through HQServvices and I must say, they have done an amazing job. I feel like I got a new sofa again.
  </p>
 </div>
 </div>
@@ -112,7 +111,9 @@ function template() {
  <h4 class="card-title">Jayson Roy</h4>
  <hr />
 
- <p><i class="fas fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci
+ <p><i class="fas fa-quote-left"></i> They used good quality materials and made sure that I was updated and intimated on the progress. My house is completed now, and I'm really happy with how it looks!
+
+
  </p>
 </div>
 
@@ -148,7 +149,7 @@ alt="woman avatar" />
 <h4 class="card-title">Enna Joel</h4>
 <hr />
 
-<p><i class="fas fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci
+<p><i class="fas fa-quote-left"></i> My refrigerator needed servicing. I booked HQServices and the experience was good and the technician knew what he was doing. Their services are definitely worth a try.
 </p>
 </div>
 
@@ -174,7 +175,7 @@ alt="woman avatar" />
 <h4 class="card-title">Adam Pattison</h4>
 <hr />
 
-<p><i class="fas fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci
+<p><i class="fas fa-quote-left"></i> " I got the exterior of my house painted. The people from HQServices were extremely helpful and helped me in getting all the necessary information and details. I am extremely happy with how vibrant my house looks post the painting. Do try their painting services
 </p>
 </div>
 
@@ -200,7 +201,7 @@ alt="woman avatar" />
 <h4 class="card-title">Vaish Hales</h4>
 <hr />
 
-<p><i class="fas fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci
+<p><i class="fas fa-quote-left"></i> I booked HQServices at-home saloon services for a haircut. I was sceptical at first but looking at the end result, I could not have been happier. The new haircut looks nice and the professional did a really good and clean job at it. Worth a try!
 </p>
 </div>
 

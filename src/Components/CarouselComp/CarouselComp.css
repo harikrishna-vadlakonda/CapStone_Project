@@ -1,3 +1,10 @@
 .custmCarousel {
     box-shadow: 0 0 20px black;
 }
+
+.carousel-caption {
+    bottom:200px;
+}
+.s1 {
+    background-color: rgba(0,0,0,0.8);
+}

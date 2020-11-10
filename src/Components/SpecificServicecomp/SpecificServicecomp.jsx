@@ -3,6 +3,7 @@ import React from "react";
 import NavbarAfterLogin from '../NavbarAfterLoginIn/index'
 import Footer from '../Footer/index'
 import Image from '../images/Landing/profile-image.png'
+import { Link } from "react-router-dom";
 
 function template() {
   return (
@@ -49,8 +50,9 @@ function template() {
                   <p className=" text-white h5">Price:&nbsp;<i class="fas fa-rupee-sign"></i>&nbsp;{data.price}</p>
                     {/* <p className="font-weight-bold" ><i class="fas fa-rupee-sign"></i>950</p> */}
                       
-                    <button class="btn  blue-gradient font-weight-bold btn-primary">Hire Me</button>
-                    
+
+           <Link to="/payment"> <button class="btn  blue-gradient font-weight-bold btn-primary">Hire Me</button>
+           </Link>
                      
                     </div>
              </div>

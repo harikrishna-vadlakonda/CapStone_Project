@@ -71,9 +71,9 @@ function template() {
                     <select className="form-control">
                         <option>Select City</option>
                         <option>Karimnagar</option>
-                        <option>Dhule</option>
+                        <option>Vijaywada</option>
                         <option>Warangal</option>
-                        <option>Latur</option>
+                        <option>Thirupathi</option>
                     </select>
                 </div>
 

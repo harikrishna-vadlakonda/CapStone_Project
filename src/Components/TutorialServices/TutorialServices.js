@@ -30,7 +30,7 @@ class TutorialServices extends React.Component {
     this.electricalServiceData = [
       {
      img:Image2,
-     title:"Home Tuitions ",
+     title:"Home Tuitions",
      description:'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil alias eaque fugiat! Culpa saepe nihil facere eos doloribus in obcaecati officiis distinctio? Harum, cum perferendis inventore autem facere non iste tempore labore hic, deserunt illum, expedita commodi tempora nam quaerat laudantium ad voluptas ducimus dolor optio obcaecati repudiandae nemo. Laudantium.'
       },
       {

@@ -81,7 +81,7 @@ function template(props) {
                         Lorem ipsum dolor sit amet consectetur, adipisicing
                         elit. Omnis, reprehenderit?
                       </p>
-                      <button class="btn btn-primary btn-rounded blue-gradient">
+                      <button class="btn btn-primary btn-rounded blue-gradient" >
                         Avail Service
                       </button>
                     </div>

@@ -9,7 +9,8 @@ class TestingComp extends React.Component {
   getdata = ()=> {
     alert("getdata Triggered")
     GetDataserver("http://localhost:5000/api/users/signup",this.state).then((res)=>{
-      if(res.statusText==="OK"){
+     alert("Registration Successful ")
+    if(res.statusText==="OK"){
         this.props.history.push("/login");
       }
     

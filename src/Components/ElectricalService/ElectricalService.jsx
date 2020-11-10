@@ -3,6 +3,7 @@ import "./ElectricalService.css";
 import NavbarAfterLogin from '../NavbarAfterLoginIn/index'
 import Footer from '../Footer/index'
 import React from "react";
+//import {Link} from 'react-router-dom'
 
 
 function template() {
@@ -22,8 +23,8 @@ function template() {
                  <div class="col-md-8  ">
         <h3 class="card-title mt-3">{data.title}</h3>
         <p>{data.description}</p>
-        <button class="btn font-weight-bold btn-primary" onClick={()=>{this.getData(data.title)}}>Avail service</button>
-                    </div>
+       <button class="btn font-weight-bold btn-primary" onClick={()=>{this.getData(data.title)}}>Avail service</button>
+         </div>
              </div>
          </div>
          
